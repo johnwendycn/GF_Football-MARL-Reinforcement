@@ -1,0 +1,14 @@
+{
+  "test_name": "Factorial Interaction Sign Test",
+  "hypothesis": "Delta_inter < 0 (Sub-additive interaction)",
+  "delta_interaction": -0.0339,
+  "is_negative": true,
+  "p_value": 0.0,
+  "cohens_d": -2.307,
+  "ci_95": [
+    -0.04301,
+    -0.02479
+  ],
+  "passed": true,
+  "conclusion": "PASSED: Empirically verified sub-additive interaction under standard 2x2 factorial design."
+}

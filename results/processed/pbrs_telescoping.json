@@ -1,0 +1,12 @@
+{
+  "test_name": "PBRS Telescoping Sum Policy Invariance Runtime Certificate",
+  "identity": "sum_{t=0}^{T-1} gamma^t [ gamma Phi(s_{t+1}) - Phi(s_t) ] = gamma^T Phi(s_T) - Phi(s_0)",
+  "n_trials": 200,
+  "horizon": 100,
+  "gamma": 0.993,
+  "worst_abs_residual": 4.768372e-07,
+  "mean_abs_residual": 3.260607e-07,
+  "tolerance": 0.0001,
+  "passed": true,
+  "conclusion": "PASSED: Mathematical and empirical policy invariance strictly holds to machine precision."
+}

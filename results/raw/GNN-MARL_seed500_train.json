@@ -1,0 +1,92 @@
+{
+  "model": "GNN-MARL",
+  "seed": 500,
+  "env_steps": 400000,
+  "total_updates": 195,
+  "gamma": 0.993,
+  "lr": 0.0003,
+  "wall_time_s": 1800.0,
+  "history": [
+    {
+      "step": 40000,
+      "win_rate": 0.1934,
+      "policy_loss": -0.0039,
+      "value_loss": 0.3598,
+      "entropy": 2.794,
+      "lr": 0.000273
+    },
+    {
+      "step": 80000,
+      "win_rate": 0.2502,
+      "policy_loss": -0.0146,
+      "value_loss": 0.343,
+      "entropy": 2.7018,
+      "lr": 0.000246
+    },
+    {
+      "step": 120000,
+      "win_rate": 0.2869,
+      "policy_loss": -0.0225,
+      "value_loss": 0.3127,
+      "entropy": 2.5754,
+      "lr": 0.000219
+    },
+    {
+      "step": 160000,
+      "win_rate": 0.3385,
+      "policy_loss": -0.0183,
+      "value_loss": 0.2439,
+      "entropy": 2.4255,
+      "lr": 0.000192
+    },
+    {
+      "step": 200000,
+      "win_rate": 0.3845,
+      "policy_loss": -0.0363,
+      "value_loss": 0.2156,
+      "entropy": 2.2756,
+      "lr": 0.000165
+    },
+    {
+      "step": 240000,
+      "win_rate": 0.452,
+      "policy_loss": -0.0398,
+      "value_loss": 0.1989,
+      "entropy": 2.1492,
+      "lr": 0.000138
+    },
+    {
+      "step": 280000,
+      "win_rate": 0.5046,
+      "policy_loss": -0.0528,
+      "value_loss": 0.153,
+      "entropy": 2.057,
+      "lr": 0.000111
+    },
+    {
+      "step": 320000,
+      "win_rate": 0.507,
+      "policy_loss": -0.0418,
+      "value_loss": 0.1617,
+      "entropy": 1.9966,
+      "lr": 8.4e-05
+    },
+    {
+      "step": 360000,
+      "win_rate": 0.5271,
+      "policy_loss": -0.0323,
+      "value_loss": 0.1223,
+      "entropy": 1.9598,
+      "lr": 5.7e-05
+    },
+    {
+      "step": 400000,
+      "win_rate": 0.5249,
+      "policy_loss": -0.0569,
+      "value_loss": 0.1594,
+      "entropy": 1.9384,
+      "lr": 3e-05
+    }
+  ],
+  "final_win_rate": 0.5249
+}

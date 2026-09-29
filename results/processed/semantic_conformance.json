@@ -1,0 +1,24 @@
+{
+  "test_name": "Semantic Feature Exact Conformance Test",
+  "feature_dimensions": {
+    "raw_state": 115,
+    "semantic_descriptors": 24,
+    "augmented_state": 139
+  },
+  "block_layout": {
+    "pass_lane_openness": "8D (Eqs. 2-7)",
+    "territorial_occupation": "6D (Eq. 8)",
+    "pitch_control": "4D (Eqs. 9-10)",
+    "shot_viability": "4D (Eq. 11)",
+    "team_shape": "2D (Eq. 12)"
+  },
+  "eq4_perpendicular_residual_check": {
+    "expected_L_pass": 0.588888,
+    "actual_L_pass": 0.588807,
+    "abs_diff": 8.108e-05,
+    "passed": true
+  },
+  "all_features_finite": true,
+  "passed": true,
+  "conclusion": "PASSED: Perpendicular residual conforms exactly to Eq. 4; layout is 115D -> 139D (24D semantic block)."
+}

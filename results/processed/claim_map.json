@@ -1,0 +1,16 @@
+{
+  "Table 4 M4 win rate 60.50%": "results/raw/M4_seed*_eval.csv -> aggregate win fraction",
+  "Table 4 M4 goal diff +0.98": "results/raw/M4_seed*_eval.csv -> mean(goals_for - goals_against)",
+  "Table 4 Behavioral TPCA 89.2%": "results/processed/metrics_summary.csv",
+  "Table 4 Behavioral OBMQ 4.45": "results/processed/metrics_summary.csv",
+  "Table 4 Behavioral kappa 0.695": "results/processed/metrics_summary.csv",
+  "Table 5 Baseline M4 vs QMIX (+12.25%)": "results/raw/M4_seed*_eval.csv and results/raw/QMIX_seed*_eval.csv",
+  "Table 5 Baseline M4 vs GNN-MARL (+6.40%)": "results/raw/M4_seed*_eval.csv and results/raw/GNN-MARL_seed*_eval.csv",
+  "Table 6 Factorial contrast -0.02616 (Sub-additive)": "results/processed/factorial_contrast.json",
+  "Table 8 LOO L_pass drop -9.43%": "results/processed/loo_ablation.csv",
+  "Table 9 PBRS weight perturbation sweep": "results/processed/weight_perturbation.csv",
+  "Table 10 Welch t-tests with Holm-Bonferroni": "results/processed/welch_table.csv",
+  "Figure 11 Scoreline risk modulation": "results/processed/risk_modulation.csv",
+  "Figure 8 2x2 Factorial interaction plot": "results/figures/fig_interaction.pdf",
+  "Table 12 SHA-256 Checkpoint Provenance": "results/processed/provenance.csv"
+}

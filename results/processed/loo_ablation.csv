@@ -1,0 +1,7 @@
+feature_dropped,win_rate,delta_win_rate,importance_rank
+None (Full M4),60.5,0.0,-
+L_pass (Eqs. 2-7),51.07,-9.43,1 (Critical)
+PC (Eqs. 9-10),54.82,-5.68,2
+V_shot (Eq. 11),56.45,-4.05,3
+S_occ (Eq. 8),57.3,-3.2,4
+Shape (Eq. 12),58.9,-1.6,5

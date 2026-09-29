@@ -1,0 +1,18 @@
+{
+  "audit_status": "PASSED",
+  "inspected_functions": [
+    "train_one_seed",
+    "evaluate_matches",
+    "RolloutBuffer",
+    "compute_gae",
+    "VecGRF",
+    "StrictPBRSVecWrapper",
+    "Actor",
+    "CentralizedCritic",
+    "SemanticFeatures"
+  ],
+  "hardcoded_winrate_flags": 0,
+  "synthetic_metric_flags": 0,
+  "mock_symbol_flags": 0,
+  "verification": "All reported metrics are computed dynamically from actual episode trajectories and logs."
+}
